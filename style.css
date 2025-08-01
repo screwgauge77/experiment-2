@@ -43,16 +43,32 @@
     padding: 10px 100px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-1:hover{
+    background-color: green;
+    transition: all 1s;
 }
 
 .btn-2{
     color: white;
-    background-color: red;
+    background-color: #f44336;
     padding: 10px 100px;
     border: none;
     border-radius: 8px;
+    cursor: pointer;
 
 }
+
+.btn-2:hover{
+    background-color:red ;
+    transition: all 1s;
+}
+
+
+
+
 
 
 
