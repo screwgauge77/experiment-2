@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#wrapper{
+    background-color: grey;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-section{
+    
+    background-color: white;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px ;
+    border-radius: 6px;
+    
+}
+
+.para{
+    color: green;
+    text-decoration: solid;
+    font-size: 38px;
+    text-align: center;
+}
+
+.btn-1{
+    color: white;
+    background-color: #28a745;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 8px;
+}
+
+.btn-2{
+    color: white;
+    background-color: red;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 8px;
+
+}
+
+
+
